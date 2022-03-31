@@ -375,7 +375,7 @@ contract Token is Context, ITRC20, Ownable {
 
     string private _name = 'UPS';
     string private _symbol = 'UPS';
-    uint8 private _decimals = 9;
+    uint8 private _decimals = 6;
     uint256 private _totalSupply = 1000000 * 10**uint256(_decimals);
 
     address private _burnPool = address(0);
